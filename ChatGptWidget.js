@@ -79,7 +79,7 @@
       } = this._props || "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";
       const {
         max_tokens
-      } = this._props || 1024;
+      } = this._props || 10240;
       const generateButton = this.shadowRoot.getElementById("generate-button");
       generateButton.addEventListener("click", async () => {
         const promptInput = this.shadowRoot.getElementById("prompt-input");
