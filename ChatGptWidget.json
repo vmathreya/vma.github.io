@@ -7,7 +7,7 @@
     "vendor": "Vasavi Ankalla",
     "eula": "",
     "license": "",
-    "icon": "https:\/\/raw.githubusercontent.com\/vmathreya\/vma.github.io\/main\/icon.png",
+    "icon": "https://raw.githubusercontent.com/vmathreya/vma.github.io/main/icon.png",
     "webcomponents": [
         {
             "kind": "main",
