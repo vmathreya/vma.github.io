@@ -124,5 +124,5 @@
       this.initMain();
     }
   }
-  customElements.define("com-vma-sap-chatgptwidget", Widget);
+  customElements.define("com-vma-chatgptwidget", Widget);
 })();
