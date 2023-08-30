@@ -1,41 +1,31 @@
-{
-	"name": "mycustomwidget",
-	"description": "Hello World",
-	"newInstancePrefix": "mycustomwidget",
-	"eula": "",
-	"vendor": "VMA",
-	"license": "",
-	"id": "mycustomwidget",
-	"version": "1.0.1",
-	"icon": "",
-	"webcomponents": [
-		{
-			"kind": "main",
-			"tag": "custom-button",
-			"url": "https://vmathreya/vma.github.io/CustomWidget/Webcomponent.js",
-			"integrity": ""	,
-			"ignoreIntegrity": true
-			
-		}		
-	],
-	"properties": {
-		"width": {
-			"type": "integer",
-			"default": 192
-		},
-		"height": {
-			"type": "integer",
-			"default": 32
-		}
-	},
-	"methods": {
-		"clear": {
-			"description": "Clear the resultset"
-		}
-	},
-	"events": {
-		"onClick": {
-			"description": "Called when the user clicks the button."
-		}
-	}
-}
+(function () {
+    let tmpl = document.createElement('template');
+    tmpl.innerHTML = 
+    `<button type="button" id="myBtn">Helper Button</button>` ;   
+   
+    class PerformanceHelp extends HTMLElement {
+        constructor() {
+            super();
+            this.init();           
+        }
+
+        init() {            
+              
+            let shadowRoot = this.attachShadow({mode: "open"});
+            shadowRoot.appendChild(tmpl.content.cloneNode(true));
+            this.addEventListener("click", event => {
+            var event = new Event("onClick");
+            this.fireChanged();           
+            this.dispatchEvent(event);
+            });           
+        }
+
+        fireChanged() {
+            console.log("OnClick Triggered");     
+            
+        }        
+        
+    }
+
+    customElements.define('custom-button', PerformanceHelp);
+})();
