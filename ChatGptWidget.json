@@ -19,7 +19,7 @@
         {
             "kind": "builder",
             "tag": "com-vma-chatgptwidget-builder",
-            "url": "https:\/\/github.com\/vmathreya\/vma.github.io/\blob\/main\/ChatGptWidget_Builder.js",
+            "url": "https://cdn.jsdelivr.net/gh/vmathreya/vma.github.io@main/ChatGptWidget_Builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
