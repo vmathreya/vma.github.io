@@ -7,19 +7,19 @@
     "vendor": "Vasavi Ankalla",
     "eula": "",
     "license": "",
-	"icon": "https:\/\/github.com\/vmathreya\/vma.github.io\/blob\/main\/icon.png",
+    "icon": "https:\/\/raw.githubusercontent.com\/vmathreya\/vma.github.io\/main\/icon.png",
     "webcomponents": [
         {
             "kind": "main",
             "tag": "com-vma-chatgptwidget",
-            "url": "https:\/\/github.com\/vmathreya\/vma.github.io\/blob\/main\/ChatGptWidget.js",
+            "url": "https:\/\/github.com\/vmathreya\/vma.github.io\/main\/ChatGptWidget.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
             "tag": "com-vma-chatgptwidget-builder",
-            "url": "https:\/\/github.com\/vmathreya\/vma.github.io\/blob\/main\/ChatGptWidget_Builder.js",
+            "url": "https:\/\/github.com\/vmathreya\/vma.github.io\/main\/ChatGptWidget_Builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
