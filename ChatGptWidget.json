@@ -6,7 +6,7 @@
     "newInstancePrefix": "ChatGptWidget",
     "vendor": "Vasavi Ankalla",
     "eula": "",
-    "license": "",
+    "license": "MIT",
     "icon": "https://raw.githubusercontent.com/vmathreya/vma.github.io/main/icon.png",
     "webcomponents": [
         {
