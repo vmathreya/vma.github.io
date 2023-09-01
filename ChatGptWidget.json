@@ -1,6 +1,6 @@
 {
     "id": "com.vma.chatgptwidget",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "name": "ChatGPT Widget",
     "description": "ChatGPT Custom Widget for SAP Analytics Cloud, To make your application more useful and effective.",
     "newInstancePrefix": "ChatGptWidget",
