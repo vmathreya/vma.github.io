@@ -33,7 +33,7 @@
         "max_tokens": {
             "description": "Result Max Length",
             "type": "integer",
-            "default": 10240
+            "default": 1024
         }
     },
     "methods": {
