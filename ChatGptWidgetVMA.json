@@ -12,14 +12,14 @@
         {
             "kind": "main",
             "tag": "com-vma-chatgptwidget",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/vmathreya\/vma.github.io@main\/ChatGptWidget.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/vmathreya\/vma.github.io@main\/ChatGptWidgetVMA.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
             "tag": "com-vma-chatgptwidget-builder",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/vmathreya\/vma.github.io@main\/ChatGptWidget_Builder.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/vmathreya\/vma.github.io@main\/ChatGptWidget_BuilderVMA.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
